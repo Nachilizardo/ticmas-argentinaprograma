@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>CV nazarena lizardo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a5538c307.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+    
+    <main>
+       <section class="col1">
+        <img src="./media/WhatsApp Image 2023-03-01 at 09.03.18.jpeg" alt="">
+
+
+    <!--MENU:-->        
+    <nav class="menu" id="menu">
+        <ul>
+            <li class=" active" onclick="openSection(event, 'about-me')">
+                <p>SOBRE MI</p>
+            </li>
+            <li onclick="openSection(event, 'interest')">
+                <p>INTERESES</p>
+            </li>
+            <li onclick="openSection(event, 'education')">
+                <p>EDUCACIÓN</p>
+            </li>           
+                 
+        </ul>
+</nav>
+
+<div class="redes-sociales">
+    <a target="_blank" href="https://www.linkedin.com/in/nazarena-lihuen-lizardo-30783725a/">
+        <i class="fa-brands fa-linkedin"></i>
+        
+    </a>
+    <a target="_blank" href="https://github.com/Nachilizardo">   
+        <i class="fa-brands fa-github"></i>
+     
+    </a>
+    <a target="_blank" href="https://www.instagram.com/n.lihuen01/">
+        <i class="fa-brands fa-instagram"></i>
+       
+    </a>
+    <a target="_blank" href="mailto:Lihuenlizardo@icloud.com">
+        <i class="fa-solid fa-envelope"></i> 
+    </a>
+</div> 
+
+   
+      </section>
+    
+    <section class="col2">
+            <h1>NAZARENA LIZARDO</h1>
+            <h2>DESARROLLADORA <span>WEB</span></h2>
+
+        <div class="columns1">
+             <fieldset id="estracto">
+                <legend class="title">PERFIL</legend>
+                <p>
+                    Soy una persona responsable, proactiva, con aptitud para entablar 
+                    relaciones interpersonales y para el trabajo en equipo.
+                     
+                    Me gusta aprender sobre nuevas tecnologías y metodologías ágiles 
+                    para mejorar mi rendimiento.
+                    
+                </p>
+            </fieldset>
+        </div>
+        <div class="columns" >   
+            <fieldset id="about-me" class="tabcontent">
+                <legend class="title">SOBRE MI</legend>
+                <div class="personal-data">
+                    <div>
+                        <p>Nacionalidad: Argentina</p>
+                        <p>Nacimiento: 06/01/2001</p>
+                        <p>D.N.I: 43104553</p>
+                        <p>telefono: 1167031986</p>
+                    </div>
+                    <div>
+                        <p>Localidad: Virrey del Pino</p>
+                        <p>Edad: 22</p>
+                        <p>Estado civil: Soltera</p>
+                       
+                    </div>
+                </div>
+
+      </fieldset>
+
+    <fieldset id="interest" class="tabcontent">
+        <legend class="title">INTERESES</legend>
+            <div>
+                <p>Mi busqueda esta orientada a un puesto donde pueda desarrollar mis
+                    conocimientos e incorporar nuevos.
+                    En un ambito de trabajo dinamico
+                    que me permita un crecimiento laboral y personal
+                </p>
+            </div>
+        <article class="skill" class="hide">
+                <h4>PILA TECNOLOGICA</h4>
+                    <ul class="stack-tech">
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>CSS</p>
+                        </li>
+                        <li>
+                            <p>JS</p>
+                        </li>
+                    </ul>            
+                </article>
+
+    </fieldset>
+            
+    <fieldset id="education" class="tabcontent">
+        <legend class="title">EDUCACIÓN</legend>
+            <div>
+                <p>Secundario Completo / Dr. Mariano Etchegaray 
+                    (2013-2019)</p>
+            </div>
+            <div>
+               <p>Curso / Primeros pasos del Desarrollo Frontend/
+                    Argentinaprograma4.0 (2022-2023)</p>
+            </div>     
+        </div>
+            </fieldset>
+
+        
+           
+        </div>   
+       </section>
+    </main>
+   
+    <script src="./app.js"></script>
+</body>
+</html>
