@@ -27,7 +27,7 @@ main {
     display: flex;
     max-width: 980px;
     margin: 0 auto;
-    background-color: rgb(15, 15, 15);
+    background-color: #313131;
     min-height: 100vh;
 
 }
@@ -48,6 +48,8 @@ main .col1 img {
     border-radius: 50% ;
     background-color: rgb(238, 231, 231);
     margin: 14% auto;
+    border: solid 1px #ececec;
+    
 }
 
 ul {
